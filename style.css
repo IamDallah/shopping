@@ -1,0 +1,111 @@
+body{
+    font-family:Poppins;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: right;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #c4c4c4;
+  }
+
+  .shopnow{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 4px;
+}
+.shopnow:hover{
+  background-color: #c4c4c4;
+}
+.fashion{
+    float: left;
+    display: inline;
+
+}
+.explore{
+    padding-top: 50px;
+    margin: 0 auto;
+    padding-bottom: 139px;
+    max-width: 1320px;
+    background-color: #f4f6f5;
+    border-radius: 41px;
+    background-image: url(pink.png);
+    background-position:  right top;
+    background-size: contain;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+div.first{
+  line-height: 0.7;
+  font-size: larger;
+  font-weight: bold;
+  display: inline-block;
+  background-color: white;
+}
+div.second{
+  line-height: 0.7;
+  font-size: larger;
+}
+div.third{
+  line-height: 0.7;
+  font-size: larger;
+  display: inline-block;
+  background-color: #ebd96b;
+}
+div.fourth{
+  line-height: 0.7;
+  font-size: larger;
+}
+.material-icons{
+    position: sticky;
+    color: #c4c4c4;
+    }
+
+.signup{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 4px;
+}
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 420px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
